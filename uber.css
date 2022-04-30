@@ -1,0 +1,374 @@
+body{
+    margin: 0;    
+}
+.container{
+    font-family: "UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif";
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding-left: 65px;
+    height: 65px;
+    align-items: center;
+    background-color: black;
+    font-weight: 900;
+    font-size: 16px;
+}
+.left-head{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.right-head{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: right;
+    padding-right: 45px;
+}
+.left-head a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+}
+.left-head select{
+    background-color:transparent;
+    color: white;
+    border: 0;
+    width: 90px;
+}
+.left-head select:hover{
+    background-color: #333333;
+    cursor: pointer;
+}
+.header button{
+    background-color: black;
+    border-radius: 75px;
+    padding: 8px;
+    border: 0;
+    color: white;
+}
+.header button:hover{
+    cursor: pointer;
+    background-color: #333333;
+}
+.signup button{
+    background-color: white;
+    color: black;
+}
+.signup button:hover{
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.main{
+    background-image: url("pics/main\ logo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.section-one{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-main{
+    background-color: white;
+    width: 45%;
+    margin: 1.5cm;
+}
+.setion-one,.section-two a{
+    text-decoration: none;
+    color: black;
+}
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 400;
+}
+div h1{
+    padding-left: 50px;
+}
+.section-four{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    row-gap: 15px;
+    padding-bottom: 45px;
+}
+.section-four input{
+    height: 1.5cm;
+    padding-left: 25px;
+    border: 0;
+    border-radius: 0;
+    background-color:#f6f6f6 ;
+}
+.btn-normal{
+    height: 1.5cm;
+    padding: 25px;
+    border: 0;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+.btn-normal:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+#btn2{
+    background-color:#f6f6f6 ;
+    color: black;
+}
+.button-four{
+    display: flex;
+    column-gap: 30px;
+}
+.request{
+    font-size: 50px;
+    padding-left: 50px;
+}
+.business{
+    background-image: url(pics/backgroundtower.png);
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5cm;
+    line-height: 16px;
+}
+.medium-font{
+    font-size: 36px;
+    font-weight: 500;
+}
+.low-font{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.ride{
+    padding: 1.5cm;
+    padding-bottom: 2cm;
+}
+.auto{
+    display: flex;
+    align-items: center;
+}
+.auto a{
+    text-decoration: none;
+    color: black;
+}
+.auto h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.auto p{
+    line-height: 24px;
+    font-size: 16px;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    margin-right: 27px;
+}
+.uber-auto{
+    max-width: 340px;
+}
+.arrow{
+    margin-right: 48px;
+    margin-left: 27px;
+    font-weight: 900;
+    font-size: 45px;
+    width: 68px;
+}
+.safety{
+    padding: 1.5cm;
+}
+.medium-h3{
+    font-weight: 530;
+}
+.image-section{
+    display: flex;
+}
+.light-black-p{
+    font-size: normal;
+    line-height: 24px;
+    color:rgba(0, 0, 0, 0.678);
+    max-width: 85%;
+    margin-top: 1px;
+}
+.left-image{
+    display: flex;
+    flex-direction: column;
+}
+.img-big{
+    width: 14cm;
+    height: 9cm;
+}
+.hover{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #33333384;
+    padding-right: 25px;
+}
+.hover:hover{
+    text-decoration-color: black;
+}
+.aboutus{
+    padding: 1.5cm;
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.icon-img{
+    height: 27px;
+    width: 27px;
+}
+.buttons{
+    padding: 1.5cm;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    height: 350px;
+}
+.btn-img{
+    width: 3.5cm;
+    height: 3.5cm;
+    margin-left: 18px;
+    padding-right: 12px;
+}
+.btn-one{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height: 180px;
+    background-color: white;
+}
+.btn-big{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-one h4{
+    font-size: 24px;
+}
+.btn-big a{
+    text-decoration: none;
+    color: black;
+}
+.login-signup{
+    padding: 1.5cm;
+    display: flex;
+}
+.btn-two{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 20px;
+}
+.btn-three{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.login-signup a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5cm;
+    background-color: black;
+    color: white;
+}
+.col-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 227px;
+    margin-left: -41px;
+}
+.footer ul{
+    list-style-type: none;
+   line-height: 2.1;
+}
+.footer a{
+text-decoration: none;
+color: white;
+}
+.footer{
+    font-size: 14px;
+}
+.footer ul a:hover{
+    color: #333333;
+}
+.footer-logo{
+    
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 1cm;
+}
+.help{
+    font-size: 16px;
+    margin-bottom: 2cm;
+}
+.form-head{
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-logo img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.right-logo{
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+}
+.right-logo img{
+    width: 150px;
+    height: 75px;
+}
+.logo a{
+    margin-right: 20px;
+}
+.water{
+    color: #AFAFAF;
+    font-size: 12px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.right-last{
+    display: flex;
+    justify-content: right;
+
+    padding-right: 20px;
+}
+.right-last a{
+    text-decoration: none;
+    color: #AFAFAF;
+    font-size: 12px;
+    padding-right: 13px;
+}
+.right-last a:hover{
+    color: #afafaf8e;
+}
